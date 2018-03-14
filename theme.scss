@@ -58,6 +58,12 @@ html,body {
 .a {
     font-size: 24px;
 }
+.anchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
 #code {
 /*  margin-top:150px;*/
   border-radius: 5px;
@@ -65,7 +71,7 @@ html,body {
   margin: 0 auto;
   padding-top:0px;
   font-size:30px;
-  background: #ccc;
+  background: #666666;
   height: auto;
   font-family: 'Monaco', 'Courier New';
   text-align: center;
@@ -79,7 +85,7 @@ html,body {
   text-align: left;
   height: auto;
   margin:0 auto;
-  background: #383737;
+  background: #2d2d2d;
 }
 
 
