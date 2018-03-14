@@ -54,3 +54,25 @@ html,body {
 .a {
     font-size: 24px;
 }
+#code {
+/*  margin-top:150px;*/
+  border-radius: 5px;
+  width: auto;
+  margin: 0 auto;
+  padding-top:15px;
+  font-size:30px;
+  background: #ccc;
+  height: auto;
+  font-family: 'Monaco', 'Courier New';
+  text-align: left;
+  font-size:24px;
+  color: #fafafa;
+}
+
+#console {
+  width: auto;
+  padding: 40px;
+  height: 620px;
+  margin:0 auto;
+  background: #383737;
+}
