@@ -6223,6 +6223,10 @@ html, body {
   /*same height as header*/
   visibility: hidden; }
 
+.top {
+  border-bottom: 5px;
+  border-bottom-width: 5px; }
+
 #code {
   /*  margin-top:150px;*/
   border-radius: 5px;
@@ -6232,7 +6236,6 @@ html, body {
   font-size: 30px;
   background: #666666;
   height: auto;
-  font-family: 'Monaco', 'Courier New';
   text-align: center;
   font-size: 24px;
   color: #fafafa; }
