@@ -6208,6 +6208,10 @@ a.text-background:hover, a.text-background:focus {
 html, body {
   height: 100%; }
 
+.blue {
+  text-color: #3879b9;
+  font-weight: bold; }
+
 .a {
   font-size: 24px; }
 
@@ -6216,18 +6220,19 @@ html, body {
   border-radius: 5px;
   width: auto;
   margin: 0 auto;
-  padding-top: 15px;
+  padding-top: 0px;
   font-size: 30px;
   background: #ccc;
   height: auto;
   font-family: 'Monaco', 'Courier New';
-  text-align: left;
+  text-align: center;
   font-size: 24px;
   color: #fafafa; }
 
 #console {
   width: auto;
   padding: 40px;
-  height: 620px;
+  text-align: left;
+  height: auto;
   margin: 0 auto;
   background: #383737; }
