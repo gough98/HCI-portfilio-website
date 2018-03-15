@@ -49,10 +49,11 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  
+
 
 
 </b>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="far fa-hand-point-up"></i></button>
   <div class="container py-3">
     <div class="row"> <span class="anchor" id="about"></span> </div>
     <h1 class="text-center"> About<span style="color: #3879b9; ">.</span></h1>
@@ -75,10 +76,10 @@
         	public origin {
         </span>
         <br> <span class="px-5">
-          city = "Wolverhampton";	        
+          city = "Wolverhampton";
         </span>
         <br> <span class="px-5">
-          country = "United Kingdom";	        
+          country = "United Kingdom";
         </span>
         <br> <span class="px-3">
           }
@@ -152,9 +153,6 @@
       </div>
     </div>
   </div>
-  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:180px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo&nbsp;&nbsp;
-    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
-  </pingendo>
   <div class="py-0 text-dark">
     <div class="container">
       <h1 class="text-center py-3" id="contact"> Contact<span style="color: #3879b9; ">.</span> </h1>
@@ -177,7 +175,7 @@
       </div>
     </div>
   </div>
-  <div class="py-0 bg-dark text-white">
+  <div class="container-fluid py-0 bg-dark text-white">
     <div>
       <div class="row py-3">
         <div class="col-md-12 mt- text-center">
@@ -185,6 +183,9 @@
       </div>
     </div>
   </div>
+  <script src="https://apis.google.com/js/client.js?onload=checkAuth" gapi_processed="true"></script>
+  <script src="button.js"></script>
+
 </body>
 
 </html>
